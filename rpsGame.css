@@ -89,3 +89,60 @@ footer{
     position: absolute;
     bottom:0;
 }
+@media only screen and (max-width: 768px) {
+    .buttonInput, .deleteScr {
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .buttonBox {
+        width: 80%;
+    }
+
+    .box {
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .you, .result, .computer {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .projName {
+        font-size: 18px;
+    }
+
+    .buttonInput, .deleteScr {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .buttonBox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90vw;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+
+    .you, .result, .computer {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
