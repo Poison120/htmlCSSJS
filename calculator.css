@@ -78,3 +78,35 @@ footer{
     margin-bottom: 0;
     padding: 2%;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .calculator {
+        width: 50%;
+        margin-top: 20%;
+    }
+
+    .buttons button {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .calculator {
+        width: 80%;
+        margin-top: 30%;
+    }
+
+    .buttons button {
+        width: 90%;
+        padding: 10%;
+    }
+
+    .projname {
+        font-size: 16px;
+    }
+
+    .output {
+        height: 20%;
+    }
+}
