@@ -164,7 +164,9 @@ footer{
 @media(max-width: 768px) {
     nav {
         padding: 5px; 
-	position:static;
+	
+	position:relative;
+	    padding:5px;
 	    
     }
 
