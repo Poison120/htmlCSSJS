@@ -97,6 +97,7 @@ footer{
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding:20px;
+        min-width:50%;
     }
 
     .buttons button {
