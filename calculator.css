@@ -82,14 +82,14 @@ footer{
 
 @media only screen and (max-width: 480px) {
     .calculator {
-        width: 90vw; /* Full width for mobile */
-        margin: 0 auto; /* Center the calculator */
-        margin-top: 20%; /* Space from the top */
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 20%;
     }
 
     .output {
-        height: 60px; /* Fixed height for output area */
-        font-size: 28px; /* Adjusted font size for better readability */
+        height: 60px;
+        font-size: 28px;
     }
 
     .buttons {
@@ -99,21 +99,21 @@ footer{
     }
 
     .buttons button {
-        flex: 1 1 30%; /* Responsive button sizing */
-        font-size: 20px; /* Smaller font size for buttons */
-        padding: 15px; /* Padding for buttons */
-        margin: 5px; /* Margin between buttons */
+        flex: 1 1 30%;
+        font-size: 20px;
+        padding: 15px;
+        margin: 5px;
     }
 
     .buttons button:hover {
-        background-color: #0056b3; /* Darker button color on hover */
+        background-color: #0056b3;
     }
 
     .equal {
-        background-color: #28a745; /* Green color for equals button */
+        background-color: #28a745;
     }
 
     .equal:hover {
-        background-color: #218838; /* Darker green on hover */
+        background-color: #218838;
     }
 }
