@@ -86,3 +86,43 @@ footer{
     text-align: center;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .clock-box, .stopwatch-box {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .timing {
+        width: 80vw;
+        height: 80px;
+        font-size: 13px;
+    }
+
+    .stopwatch-box button {
+        width: 80%;
+    }
+    
+    footer {
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .timing {
+        width: 90vw;
+        height: 60px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .projname, .sec-h {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .stopwatch-box button {
+        width: 90%;
+        padding: 8px;
+    }
+}
