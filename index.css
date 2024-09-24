@@ -161,3 +161,57 @@ footer{
     margin-bottom: 0;
     padding: 2%;
 }
+@media(max-width: 768px) {
+    nav {
+        padding: 5px; 
+    }
+
+    .box {
+        width: 95%; 
+    }
+
+    .list-items {
+        float: none; 
+        text-align: center; 
+    }
+
+    .list-item {
+        padding-right: 0; 
+        display: block;
+        margin: 10px 0;
+    }
+
+    .text {
+        font-size: 18px; 
+        padding: 50px 10px; 
+    }
+
+    .about-content,
+    #contact,
+    #projects {
+        margin: 20px; 
+        padding: 15px;
+        font-size: 18px; 
+    }
+
+    footer {
+        font-size: 14px; 
+    }
+}
+
+@media(max-width: 480px) {
+    .text {
+        font-size: 16px; 
+    }
+
+    .about-content,
+    #contact,
+    #projects {
+        font-size: 16px;
+        padding: 10px; 
+    }
+
+    footer {
+        font-size: 12px; 
+    }
+}
