@@ -36,3 +36,44 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
+@media only screen and (max-width: 768px) {
+    .projName {
+        font-size: 1.2em;
+    }
+
+    .game {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .button {
+        width: 80px;
+        height: 80px;
+    }
+
+    .reset {
+        width: 90%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .projName {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .game {
+        width: 95%;
+    }
+
+    .button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .reset {
+        width: 100%;
+        padding: 8px;
+    }
+}
