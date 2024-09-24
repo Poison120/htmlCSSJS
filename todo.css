@@ -80,3 +80,60 @@ footer{
     letter-spacing: 3px;
     
 }
+@media only screen and (max-width: 768px) {
+    .enterTask {
+        width: 40%;
+    }
+
+    .projname {
+        font-size: 1.2em;
+        padding: 5px;
+    }
+
+    .submit {
+        padding: 8px;
+        width: 60%;
+    }
+
+    .table {
+        width: 90%;
+    }
+
+    tr, th, td {
+        width: auto; /* Allow columns to adjust based on content */
+    }
+
+    .delete {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .enterTask {
+        width: 70%;
+    }
+
+    .projname {
+        font-size: 1em;
+    }
+
+    .submit {
+        padding: 5px;
+        width: 80%;
+    }
+
+    .table {
+        font-size: 0.9em;
+    }
+
+    .delete {
+        width: 90%;
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+}
